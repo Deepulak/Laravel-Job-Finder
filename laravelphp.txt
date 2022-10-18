@@ -1,0 +1,95 @@
+for creating a table
+
+php artisan make:migrations create_listings_table
+
+
+for migrate the table into the database
+
+php artisan migrate
+
+
+for seeding the database
+
+php artisan db:seed
+
+
+for creating model
+
+php artisan make:model -> model name Listing
+
+
+
+for making refresh the database
+
+php artisan migrate:refresh
+
+
+for making refresh the database with seed
+
+
+php artisan migrate:refresh --seed
+
+
+for creating factory file
+
+php artisan make:factory -> file name Listing
+
+
+for making controller
+
+php artisan make:controller -> file name
+
+
+// Common Resource Routes
+
+// index - show all listings
+
+// show - show single listing
+
+// create - show form to create new listing
+
+// store - store new listing
+
+// edit - show form to edit listing
+
+// update - update listing
+
+// destory - delete listing
+
+
+for install the pagination properly on laravel with 
+
+tailwind css
+
+we need to install the PaginationServiceProvider
+
+for that the command would be
+
+
+php artisan vendor:publish
+
+
+for linking the storage
+
+php artisan storage:link
+
+
+tinker is a command line tool for working with database 
+
+creating model and controller
+
+we dont need to install it
+
+we just need to type the below command to get the shell of the tinker
+
+
+php artisan tinker
+
+
+simple using of this shell
+
+
+\App\Models\Listings::find(3)->user
+
+
+
